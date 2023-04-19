@@ -3,224 +3,224 @@
 # Licence: https://github.com/anudeepND/whitelist/blob/master/LICENSE
 
 # Adult Swim Videos on Amazon Firestick
-pmd.cdn.turner.com
-i.cdn.turner.com
-s.cdn.turner.com
-z.cdn.turner.com
-amd.cdn.turner.com
+@@pmd.cdn.turner.com^$important
+@@i.cdn.turner.com^$important
+@@s.cdn.turner.com^$important
+@@z.cdn.turner.com^$important
+@@amd.cdn.turner.com^$important
 
 # Amazon Alexa and Amazon Shopping app
-device-metrics-us-2.amazon.com
-device-metrics-us.amazon.com
+# @@device-metrics-us-2.amazon.com^$important
+# @@device-metrics-us.amazon.com^$important
 
 # Amazon Kindle
-cognito-identity.us-east-1.amazonaws.com
-unagi-na.amazon.com
-ocsp.rootg2.amazontrust.com
-det-ta-g7g.amazon.com
-todo-ta-g7g.amazon.com
-device-messaging-na.amazon.com
-s3-eu-west-1.amazonaws.com
-us-east-1.amazonaws.com
+# cognito-identity.us-east-1.amazonaws.com^$important
+# unagi-na.amazon.com^$important
+# ocsp.rootg2.amazontrust.com^$important
+# det-ta-g7g.amazon.com^$important
+# todo-ta-g7g.amazon.com^$important
+# device-messaging-na.amazon.com^$important
+# s3-eu-west-1.amazonaws.com^$important
+# us-east-1.amazonaws.com^$important
 
 # Amazon AWS (???) - whitelist to make Kryptonite work
-sqs.us-east-1.amazonaws.com
+# sqs.us-east-1.amazonaws.com^$important
 
 # Bild.de
-acdn.adnxs.com
-cdn1.smartadserver.com
-ec-ns.sascdn.com
+@@acdn.adnxs.com^$important
+@@cdn1.smartadserver.com^$important
+@@ec-ns.sascdn.com^$important
 
 # DirectTV Now
-js.maxmind.com
-directvnow.com
-directvapplications.hb.omtrdc.net
-s.zkcdn.net
+@@js.maxmind.com^$important
+@@directvnow.com^$important
+@@directvapplications.hb.omtrdc.net^$important
+@@s.zkcdn.net^$important
 
 # Facebook
-creative.ak.fbcdn.net
-external-lhr0-1.xx.fbcdn.net
-external-lhr10-1.xx.fbcdn.net
-external-lhr1-1.xx.fbcdn.net
-external-lhr2-1.xx.fbcdn.net
-external-lhr3-1.xx.fbcdn.net
-external-lhr4-1.xx.fbcdn.net
-external-lhr5-1.xx.fbcdn.net
-external-lhr6-1.xx.fbcdn.net
-external-lhr7-1.xx.fbcdn.net
-external-lhr8-1.xx.fbcdn.net
-external-lhr9-1.xx.fbcdn.net
-fbcdn-creative-a.akamaihd.net
-graph.facebook.com
-graph.instagram.com
-instagram.c10r.facebook.com
-scontent-lhr3-1.xx.fbcdn.net
-scontent.xx.fbcdn.net
-scontent.fgdl5-1.fna.fbcdn.net
-facebook.com
-facebook.net
-fbcdn.net
-cdn.fbsbx.com
-edge-mqtt.facebook.com
-0-edge-chat.facebook.com
-1-edge-chat.facebook.com
-2-edge-chat.facebook.com
-3-edge-chat.facebook.com
-4-edge-chat.facebook.com
-5-edge-chat.facebook.com
-6-edge-chat.facebook.com
-edge-chat.facebook.com
-mqtt-mini.facebook.com
+# @@creative.ak.fbcdn.net^$important
+# @@external-lhr0-1.xx.fbcdn.net^$important
+# @@external-lhr10-1.xx.fbcdn.net^$important
+# @@external-lhr1-1.xx.fbcdn.net^$important
+# @@external-lhr2-1.xx.fbcdn.net^$important
+# @@external-lhr3-1.xx.fbcdn.net^$important
+# @@external-lhr4-1.xx.fbcdn.net^$important
+# @@external-lhr5-1.xx.fbcdn.net^$important
+# @@external-lhr6-1.xx.fbcdn.net^$important
+# @@external-lhr7-1.xx.fbcdn.net^$important
+# @@external-lhr8-1.xx.fbcdn.net^$important
+# @@external-lhr9-1.xx.fbcdn.net^$important
+# @@fbcdn-creative-a.akamaihd.net^$important
+# @@graph.facebook.com^$important
+# @@graph.instagram.com^$important
+# @@instagram.c10r.facebook.com^$important
+# @@scontent-lhr3-1.xx.fbcdn.net^$important
+# @@scontent.xx.fbcdn.net^$important
+# @@scontent.fgdl5-1.fna.fbcdn.net^$important
+# @@facebook.com^$important
+# @@facebook.net^$important
+# @@fbcdn.net^$important
+# @@cdn.fbsbx.com^$important
+# @@edge-mqtt.facebook.com^$important
+# @@0-edge-chat.facebook.com^$important
+# @@1-edge-chat.facebook.com^$important
+# @@2-edge-chat.facebook.com^$important
+# @@3-edge-chat.facebook.com^$important
+# @@4-edge-chat.facebook.com^$important
+# @@5-edge-chat.facebook.com^$important
+# @@6-edge-chat.facebook.com^$important
+# @@edge-chat.facebook.com^$important
+# @@mqtt-mini.facebook.com^$important
 
 # Fix - Images not loading on www.thecut.com
-pixel.nymag.com
+@@pixel.nymag.com^$important
 
 # GeForce Experience
-events.gfe.nvidia.com
-gfwsl.geforce.com
+@@events.gfe.nvidia.com^$important
+@@gfwsl.geforce.com^$important
 
 # GTA Online telemetry. Whitelist this domain to prevent the game from crashing.
-prod.telemetry.ros.rockstargames.com
+@@prod.telemetry.ros.rockstargames.com^$important
 
 # Host files
-hosts-file.net
-raw.githubusercontent.com
-v.firebog.net
-hostsfile.org
-someonewhocares.org
-hostsfile.mine.nu
-winhelp2002.mvps.org
-sysctl.org
-pgl.yoyo.org
-zeustracker.abuse.ch
+@@hosts-file.net^$important
+@@raw.githubusercontent.com^$important
+@@v.firebog.net^$important
+@@hostsfile.org^$important
+@@someonewhocares.org^$important
+@@hostsfile.mine.nu^$important
+@@winhelp2002.mvps.org^$important
+@@sysctl.org^$important
+@@pgl.yoyo.org^$important
+@@zeustracker.abuse.ch^$important
 
 # Images not loading on aliexpress.com
-ae01.alicdn.com
+@@ae01.alicdn.com^$important
 
 # Jackbox.tv
-www.google-analytics.com
-google-analytics.com
-ssl.google-analytics.com
+# @@www.google-analytics.com^$important
+# @@google-analytics.com^$important
+# @@ssl.google-analytics.com^$important
 
 # Lotus talk
-lotustalk.com
-www.lotustalk.com
+# @@lotustalk.com^$important
+# @@www.lotustalk.com^$important
 
 # National Express, UK (nationalexpress.com/en) - Unable to book journey
-cdns.gigya.com
+# @@cdns.gigya.com^$important
 
 # Netflix - Domains needed for netlix to work correctly
-api-global.netflix.com
-appboot.netflix.com
-secure.netflix.com
+@@api-global.netflix.com^$important
+@@appboot.netflix.com^$important
+@@secure.netflix.com^$important
 
 # NowTV UK - AppleTV
-dpm.demdex.net
+@@dpm.demdex.net^$important
 
 # Nvidia updates
-ota-downloads.nvidia.com
-
+@@ota-downloads.nvidia.com^$important
+@@
 # Pluto.tv
-images.pluto.tv
-stitcher.pluto.tv
-siloh.pluto.tv
-silo.pluto.tv
-cdn-mobile.api.pluto.tv
-api.pluto.tv
-players.pluto.tv
+@@images.pluto.tv^$important
+@@stitcher.pluto.tv^$important
+@@siloh.pluto.tv^$important
+@@silo.pluto.tv^$important
+@@cdn-mobile.api.pluto.tv^$important
+@@api.pluto.tv^$important
+@@players.pluto.tv^$important
 
 # Roku HGTV app: Failed to play previous episodes
-dcs-vod.apis.anvato.net
+@@dcs-vod.apis.anvato.net^$important
 
 # Roku TNT app: Failed to play videos
-z.cdn.turner.com
-manifest.auditude.com
+@@z.cdn.turner.com^$important
+@@manifest.auditude.com^$important
 
 # Refersion.com (affiliate marketing)
-cdn.refersion.com
-refersion.com
-www.refersion.com
+@@cdn.refersion.com^$important
+@@refersion.com^$important
+@@www.refersion.com^$important
 
 # Roku TV CW and NBC app
-cwtv-mrss-akamai.cwtv.com
-cwtv-prod-elb.digitalsmiths.net
-redirector.googlevideo.com
+@@cwtv-mrss-akamai.cwtv.com^$important
+@@cwtv-prod-elb.digitalsmiths.net^$important
+@@redirector.googlevideo.com^$important
 
 # Samsung TV's Amazon Prime Video app
-time.samsungcloudsolution.com
+@@time.samsungcloudsolution.com^$important
 
 # Samsung smart TV's network issue
-cdn.samsungcloudsolution.com
+@@cdn.samsungcloudsolution.com^$important
 
 # SBS Online videos not playing
-www.sbs.com.au
-sbs.com.au
-api.sbs.com.au
-media.sbs.com.au
-resources.sbs.com.au
-videocdn-sbs.akamaized.net
-sbsvodns-vh.akamaihd.net
-link.theplatform.com
-e7065.e2.akamaiedge.net
-a463.w10.akamai.net
-a790.w16.akamai.net
+@@www.sbs.com.au^$important
+@@sbs.com.au^$important
+@@api.sbs.com.au^$important
+@@media.sbs.com.au^$important
+@@resources.sbs.com.au^$important
+@@videocdn-sbs.akamaized.net^$important
+@@sbsvodns-vh.akamaihd.net^$important
+@@link.theplatform.com^$important
+@@e7065.e2.akamaiedge.net^$important
+@@a463.w10.akamai.net^$important
+@@a790.w16.akamai.net^$important
 
 # Share buttons on websites
-dsms0mj1bbhn4.cloudfront.net
-shareaholic.com
+@@dsms0mj1bbhn4.cloudfront.net^$important
+@@shareaholic.com^$important
 
 # Sky Go (skygo.sky.de)
-assets.adobedtm.com
+# @@assets.adobedtm.com^$important
 
 # Spotify premium with Denon Heos speakers
 # https://github.com/anudeepND/whitelist/issues/93
-mobile-ap.spotify.com
-apresolve.spotify.com
-upgrade.scdn.com
-market.spotify.com
-spclient.wg.spotify.com
-audio-ake.spotify.com.edgesuite.net
+@@mobile-ap.spotify.com^$important
+@@apresolve.spotify.com^$important
+@@upgrade.scdn.com^$important
+@@market.spotify.com^$important
+@@spclient.wg.spotify.com^$important
+@@audio-ake.spotify.com.edgesuite.net^$important
 
 # Target's Weekly Ads
-weeklyad.target.com
-m.weeklyad.target.com
-weeklyad.target.com.edgesuite.net
+# @@weeklyad.target.com^$important
+# @@m.weeklyad.target.com^$important
+# @@weeklyad.target.com.edgesuite.net^$important
 
 # UK University application website
 # https://github.com/anudeepND/whitelist/issues/30
-track.ucas.com
+@@track.ucas.com^$important
 
 # URL shorteners
-t.ly
-adf.ly
-www.adf.ly
-bit.ly
-www.bit.ly
-goo.gl
-ow.ly
-www.ow.ly
-amzn.to
-amzn.com
+@@t.ly^$important
+@@adf.ly^$important
+@@www.adf.ly^$important
+@@bit.ly^$important
+@@www.bit.ly^$important
+@@goo.gl^$important
+@@ow.ly^$important
+@@www.ow.ly^$important
+@@amzn.to^$important
+@@amzn.com^$important
 
 # Videos not playing on  arstechnica/wired/vogue/newyorker
 # Note: ads before videos may appear after whitelisting this domain
-d2c8v52ll5s99u.cloudfront.net
+# @@d2c8v52ll5s99u.cloudfront.net^$important
 
 # Videos not playing on www.jacquielawson.com
-f1.media.brightcove.com
+# @@f1.media.brightcove.com^$important
 
 # WatchESPN
-fpdownload.adobe.com
-entitlement.auth.adobe.com
-livepassdl.conviva.com
+# @@fpdownload.adobe.com^$important
+# @@entitlement.auth.adobe.com^$important
+# @@livepassdl.conviva.com^$important
 
 # Xbox Achievements and game stats sync
-v10.events.data.microsoft.com
-v20.events.data.microsoft.com
+@@v10.events.data.microsoft.com^$important
+@@v20.events.data.microsoft.com^$important
 
 # streamelements.com (Blocked by Pi-hole regex)
-stats.streamelements.com
+@@stats.streamelements.com^$important
 
 # Adobe licence verification endpoints
-lm.licenses.adobe.com
-activate.adobe.com
+# @@lm.licenses.adobe.com^$important
+# @@activate.adobe.com^$important
